@@ -12,16 +12,23 @@ def gcd(a, b):
     elif (b == 0):
         mcd = a
     else:
-        min_number = min(a, b)
-        max_number = max(a,b)
+        a = max(a, b)
+        b = min(a, b)
     
-        
+    while (a % b != 0):
+        c = a
+        a = b
+        b = (c % b)
 
-    return mcd
+    return a / b
+
+
 
     
 
 
 if __name__ == "__main__":
-    a, b = map(int, input().split())
+    #a, b = map(int, input().split())
+    a, b = 24, 4
     print(naive_gcd(a, b))
+    print(gcd(a, b))
