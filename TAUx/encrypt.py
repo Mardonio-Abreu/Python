@@ -10,7 +10,10 @@ def encrypt(plaintext, k):
 
     return newWord
 
-print(encrypt(plaintext, k))
+plaintext = "kyvtrmrcipnzccrkkrtbwifdkyvefikynvjkrkeffe"
+
+for k in range(0, 26):
+    print(encrypt(plaintext, k), k)
       
 
 
