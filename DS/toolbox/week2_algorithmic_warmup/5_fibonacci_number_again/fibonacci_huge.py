@@ -10,6 +10,8 @@ def fibonacci_huge_naive(n, m):
 
     return current % m
 
+def fibonacci_huge_fast(n, m):
+
 
 if __name__ == '__main__':
     n, m = map(int, input().split())
