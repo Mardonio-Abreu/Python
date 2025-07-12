@@ -1,6 +1,6 @@
 # UC San Diego
 
-# Introduction to Discrete Mathematics for Computer Science Specialization
+# Introduction to Discrete Mathematics for Computer Science (Specialization)
 
 Mathematical Thinking in Computer Science
 
