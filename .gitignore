@@ -8,5 +8,17 @@
 *.scala
 *.cs
 *.hs
+.venv
+.cfg
+.hidden
+.readonly
+.zip
 
 PDF
+
+bin
+include
+lib
+lib64
+share
+
